@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog page</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./pen.svg" height="30"/>Our Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="col-lg-6 px-0">
+      <h1 class="display-4 fst-italic">Welcome to my blogs</h1>
+      <p class="lead my-3">Welcome, developers, tech enthusiasts, and curious minds, to our exciting not-just-another-tech-blog! We are thrilled to embark on this journey of exploring the ever-evolving world of technology and sharing expert knowledge, practical insights, and thought-provoking discussions with all of you.</p>
+  </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary-emphasis"></strong>
+          <a href="#" class="Thumbnail"><img src="./depositphotos_20035055-stock-photo-best-internet-concept-of-global.jpg" height="300" width="550"/> </a>
+          <h3 class="mb-0">How a a Rural Community in Armenia Built Their Own Internet</h3>
+          <div class="mb-1 text-body-secondary">March 12 2023 </div>
+          <p class="card-text mb-auto">Driven by Kristine Gyonjyan, Director Union of 
+            Operators of Armenia, the people in Shaghap saw an opportunity when they learned 
+            about community networks during the 2019 European Community Networks Summit.  
+            The summit was led by the Internet Society and held in the neighboring country of Georgia.
+          <span id="dots">.....</span> <span id="invisible-text">Internet Society and held in the neighboring country of Georgia.
+             During the summit, people from all over the region working with community
+              networks shared their experiences, including representatives from guifi.net 
+              in Barcelona, Sarantaporo in Greece, Suusamyr in Kyrgyzstan, and Tusheti in Georgia. 
+              The event also shared how to leverage public and private investment for these types of networks, 
+            and how to create an enabling regulatory environment allowing them to grow and thrive.People
+             in Shaghap had thought about connecting underserved areas with fiber optic cables.
+              Learning about the experience of others who had set up community networks made it
+               seem more realistic. They started by kicking off conversations with members of the
+                community, network operators, the Union of Operators of Armenia, and the Armenian 
+                government. The idea was eventually supported by the Ministry of High-Tech Industry of Armenia and the Public Services Regulatory Commission. This led to a pilot project developed by the Union of Operators of Armenia to deploy its first community network.
+
+            After delays due to local conflicts and COVID restrictions, the project finally 
+            took off in 2021. The Union of Operators of Armenia established the Community 
+            Networks Foundation to lead this project and partnered with a local network operator, 
+            Arpinet, and the Armenian Electronic Network for the infrastructure planning and use. 
+            The community installed over 18 kilometers of fiber optic cables to bring connectivity to Shaghap from the nearby village of Vedy,
+             and then laid another two kilometers within the village to connect several homes and buildings, including the local school.</span></p>
+          <button id="btn" onclick="Moreless()">Read More</button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success-emphasis"></strong>
+          <a href="#" class="Thumbnail"><img src="./ChatGPT-Header-1024x486.jpg" height="300" width="550"/> </a>
+          <h3 class="mb-0">You’re Using ChatGPT Wrong! Here’s How to Be Ahead of 99% of ChatGPT Users</h3>
+
+          <div class="mb-1 text-body-secondary">May 9 2023</div>
+          <p class="mb-auto">We need to learn how to create high-quality prompts 
+            to get better results. We need to 
+            learn prompt engineering! And, in this guide, 
+            we’ll learn 4 techniques used in prompt engineering.Well, 
+            If you want to increase your chances to get the desired result,
+             you have to add examples of the task you are trying to solve.
+             <span id="do">.....</span> <span id="invisible-te">Now let’s create another prompt. Say we want to extract airport codes from the text “I want to fly from Orlando to Boston”
+
+              Here’s the standard prompt that most would use.
+              
+              Extract the airport codes from this text: “I want to fly from Orlando to Boston”
+              
+              This might get the job done, but sometimes it might not be enough. In such cases, you have to use few shot standard prompts.
+              
+              Extract the airport codes from this text:
+              
+              Text: “I want to fly from Los Angeles to Miami.”
+              Airport codes: LAX, MIA
+              
+              Text: “I want to fly from Nashville to Kansas City.”
+              Airport codes: BNA, MCI
+              
+              Text: “I want to fly from Orlando to Boston”
+              Airport codes:
+              
+              If we try the previous prompt on ChatGPT, we’re going to get the airport code in the format we specified in the example (MCO, BOS)
+              
+              Keep in mind that previous research found that the actual answers in the examples are not important, but the labelspace is. A labelspace is all the possible labels for a given task. You could improve the results of your prompts by even providing random labels from the labelspace.
+              
+              Let’s test this by typing random airport codes in our example.
+              
+              Extract the airport codes from this text:
+              
+              Text: “I want to fly from Los Angeles to Miami.”
+              Airport codes: DEN, OAK
+              
+              Text: “I want to fly from Nashville to Kansas City.”
+              Airport codes: DAL, IDA
+              
+              Text: “I want to fly from Orlando to Boston”
+              Airport codes:
+              
+              If you tried the previous prompt on ChatGPT, you’ll still get the right airport codes MCO and BOS.
+              
+              Whether your examples are correct or not, include random labels from the labelspace. This will help you improve results and instruct the model on how to format the answer to the prompt.
+              s you can see, ChatGPT behaves like he’s interviewing me for a job position.
+
+              Just like that, you can turn ChatGPT into a language tutor to practice a foreign language like Spanish or a movie critic to analyze any movie you want. In this article, I dive more into how to turn ChatGPT into your language tutor or language buddy.
+              
+              You only need to start your prompt with the words “Act as a … ” and then add as many details as possible. If you need some inspiration, check this repository where you’ll find prompts to make ChatGPT behave like a stand-up comedian, doctor, and more.
+              
+              Add personality to your prompts and generate knowledge
+              These two prompting approaches are good when it comes to generating text for emails, blogs, stories, articles, etc.
+              
+              First, by “adding personality to our prompts” I mean adding a style and descriptors. Adding a style can help our text get a specific tone, formality, domain of the writer, and more.
+              
+              Write [topic] in the style of an expert in [field] with 10+ years of experience.
+              
+              To customize the output even further we can add descriptors. A descriptor is simply an adjective that you can add to tweak your prompt.
+              
+              Say you want to write a 500-blog post on how AI will replace humans. If you create a standard prompt with the words “write a 500-blog post on how AI will replace humans,” you’d probably get a very generic post.
+              
+              However, if you add the adjectives such as inspiring, sarcastic, intriguing, and entertaining, the output will significantly change.
+            </span>  
+    
+
+          </p>
+          <button id="btnnn" onclick="Morele()">Read More</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary-emphasis"></strong>
+          <a href="#" class="Thumbnail"><img src="./istockphoto-1311598658-612x612.jpg" height="300" width="550"/> </a>
+          <h3 class="mb-0">Pluralsight 2023: The Year in Tech</h3>
+          <div class="mb-1 text-body-secondary">June 12 2023</div>
+          <p class="card-text mb-auto">Python was overwhelmingly the most popular programming 
+            language in 2023. Not only was it the most searched-for term in the Pluralsight 
+            platform (and topped our Skill IQs), but it also made Gartner’s “Critical Skill” list for technology professionals. Python also topped the list of Tiobe’s
+             analysis of search engine queries. In a StackOverflow survey of 71k developers, 48% said they were 
+             “doing extensive development work” using Python or planning to in 2023.
+             <span id="dot">.....</span> <span id="invisible-tex">Java came in at #2, no surprise for the ‘write once, run anywhere’ (WORA) programming language. It was second on the Pluralsight platform and considered by Gartner to be a “core skill” technologists must have, on par with Linux, API use, and network security. 
+              Javascript is still going strong at #3, given that 97% of websites still use the client-side programming language. C-based languages take the fourth to sixth slots (C#, C++, and C respectively). While Ruby did not make the list, our research did show it is being used more often than in 2021.
+              t’s also worth noting that while the above shows what languages are popular in terms of use, it doesn’t reflect how much developers actually like to use them, which is a much different story — one that Rust utterly dominates. Not only is Rust the most loved language, it’s also the language most developers want to use who aren’t using it (17.6%). This is a smidgeon more than Python (17.59%) — it’s a close race!
+              Cloud skills were in significant demand this year, but not many tech professionals had the expertise to match it. In our recent State of Cloud 2022 report, 75% of tech leaders said they’re building all new products and features in the cloud moving forward, but only 8% of technologists have extensive experience working with cloud-related tools. Moreover, 64% of our learners noted they were brand-new to cloud computing and looking for basic training.
+
+              However, tech professionals aren’t just sitting on their hands! In 2022, they spent almost 85,000 days cumulatively working towards cloud certifications across all Pluralsight platforms.  
+              All of this lines up with Gartner’s 2022 report which listed working with cloud environments as one of the top 10 critical skills for technology professionals. Database management and traditional on-prem skillsets now fall into the “stagnant skills” category. In 2022, the demand for cloud skills became more relevant to mainstream devs as well; read our article on why learning cloud computing is becoming a must in software development.
+              
+              The other major trend was an increased demand for cybersecurity specialists. In Pluralsight’s State of Upskilling 2022, tech professionals said the top skills gap was cybersecurity, beating out cloud computing as the number one gap for the first time in 2022. IT Security Professionals were also the most in-demand for important tech initiatives, according to the ITC 2022 Future Enterprise Resiliency & Spending Survey. 
+            </span>  </p>
+            <button id="btnn" onclick="Moreles()">Read More</button>
+      
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success-emphasis"></strong>
+          <a href="#" class="Thumbnail"><img src="./abc.jpg" height="300" width="550"/> </a>
+          <h3 class="mb-0"> 2024 and How the Coming CPU War Is Likely To Play Out</h3>
+          <div class="mb-1 text-body-secondary">June 25 2023</div>
+          <p class="mb-auto">if you look ahead on the roadmap to 2024, some impressive parts are coming from AMD, Intel, and Qualcomm, targeting your PC that will change dramatically how these machines work.
+
+      This period is when hardware tries to catch up with the generative AI trend, and our PCs, tablets, and smartphones get smarter.But the 
+      real battle will be on PC CPUs which will increasingly get GPU and NPU.
+      <span id="d">.....</span> <span id="invisible-t">or VPU if we are talking about Intel — and as a result, performance and battery life should get huge bumps.
+
+        Given that these products will all be relatively new, their real benefits may not show up until 2025 as software evolves to take advantage of the latest hardware features. Let me lay out the battlefield for you and showcase that this fight will also open the door to new competitors like Nvidia that will step in to shift the marketplace.
+        
+        We’ll close with my Product of the Week, a new workstation from HP that is the quietest I’ve ever tested.
+        
+        It’s Intel’s Market To Lose
+        Intel is the established vendor when it comes to mobile parts, so this war is on Intel’s traditional battlefield.
+        
+        The product to watch is code-named Lunar Lake, arguably the most significant advancement Intel has ever made for a PC platform. On paper, this product should be more than good enough if it weren’t for the fact that Intel has undergone both layoffs and a salary adjustment where employees get reduced income. These two events are typically very damaging to morale and productivity and could put the timely release of this product, due in 2024, in question.
+        
+        In addition, the revolutionary nature of this product will require a more robust campaign than Intel has recently executed. It continues to struggle to retain a chief marketing officer at a time when it will need a Dennis Carter-level of execution. Intel has not adequately supported CMOs since early this century, which adds concerns about the company’s ability to execute this launch fully.
+        
+        Fortunately for Intel, it is the entrenched vendor in mobile parts. However, AMD has been making inroads, so a failure to execute here could give AMD and Qualcomm a huge boost in their efforts to dethrone Intel.
+        
+        AMD
+        Recently, AMD has been firing on all cylinders. When it says it’s going to do something, it happens.
+        
+        AMD is expected to have a similar product to Intel’s Lunar Lake in the market in 2024 and has indicated it will have pivoted sharply to generative AI tools to create it.
+        
+        The use of AI in this context is doubly important and may indicate some risk because AI continues to be a driving force, and a vendor actively using the technology should have better insights on how to optimize hardware for it. Also, we expect AI to be a significant sales driver for this entire PC hardware class.
+        
+        Subscribe to the TechNewsWorld Newsletter
+        Again, however, as with Intel, the exposure for AMD is marketing. Never a marketing powerhouse, AMD is like most engineering-driven companies in that it underfunds marketing, which means it may not get the credit for its advancements that it otherwise would.
+        
+        With the right marketing campaign and an Intel miss (this last is likely, as noted above), AMD could take a major laptop share. But this potential may remain unmet without the interest or ability to fund and run such a campaign. Should Intel miss its deadlines, AMD is the most likely to benefit, given that it will already be in the market with a similar alternative.
+        
+        Qualcomm
+        Qualcomm is in a unique position due to its dominance in the smartphone space. It is developing a fresh new PC processor design co-developed with Nuvia, which Qualcomm acquired in 2021 for $1.4 billion. There is increased interest in integrating smartphones with PCs, and nobody should be able to do that better than a vendor aggressively working to improve both platforms.
+        
+        However, to make this work, Qualcomm’s marketing requirements are significantly higher than those of Intel or AMD due to its negligible presence in the PC market. Qualcomm recently lost one of its early design wins, the HP Folio, to Intel, even though the resulting product only offered about a third of the battery life compared to earlier Snapdragon-based alternatives.
+        
+        Qualcomm’s higher marketing requirement is because it is the most different. Both Intel and AMD are x86-based, while Qualcomm is uniquely ARM-based. ARM isn’t pleased with Qualcomm or its effort because it feels that Qualcomm should pay it more for a PC platform license. The litigation between ARM and Qualcomm has the potential to damage the initiative significantly, and Qualcomm is already in the weakest position of the three vendors mentioned so far.</span>
+
+      </p>
+      <button id="btnnnn" onclick="Morel()">Read More</button>
+          
+        </div>
+  
+      </div>
+    </div>
+  </div>
+ 
+        
+  <div class="row">
+    <div class="col-6 col-md-2 mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-2 mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-2 mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+    
+
+    <div class="col-md-5 offset-md-1 mb-3">
+      <form>
+        <h5>Subscribe to our blogs</h5>
+        <p>Monthly digest of what's new and exciting from us.</p>
+        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+          <label for="newsletter1" class="visually-hidden">Email address</label>
+          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+          <button class="btn btn-primary" type="button">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <p>© 2023 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </div>
+    <script>
+      function Moreless(){
+        var dots= document.getElementById("dots")
+        var invisibletext=document.getElementById("invisible-text")
+        var btnText=document.getElementById("btn")
+        if(dots.style.display!="none"){
+          dots.style.display="none";
+          invisibletext.style.display="inline";
+          btnText.innerHTML="Read Less";}
+
+        else{
+            dots.style.display="inline";
+          invisibletext.style.display="none";
+          btnText.innerHTML="Read More";
+
+          }
+
+       }
+
+       function Moreles(){
+        var dot= document.getElementById("dot")
+        var invisibletex=document.getElementById("invisible-tex")
+        var btnText=document.getElementById("btnn")
+        if(dot.style.display!="none"){
+          dot.style.display="none";
+          invisibletex.style.display="inline";
+          btnnText.innerHTML="Read Less";}
+
+        else{
+            dot.style.display="inline";
+          invisibletex.style.display="none";
+          btnnText.innerHTML="Read More";
+
+          }
+
+       }
+
+       function Morele(){
+        var dot= document.getElementById("do")
+        var invisibletex=document.getElementById("invisible-te")
+        var btnText=document.getElementById("btnnn")
+        if(dot.style.display!="none"){
+          dot.style.display="none";
+          invisibletex.style.display="inline";
+          btnnText.innerHTML="Read Less";}
+
+        else{
+            dot.style.display="inline";
+          invisibletex.style.display="none";
+          btnnText.innerHTML="Read More";
+
+          }
+
+       }
+
+       function Morel(){
+        var dot= document.getElementById("d")
+        var invisibletex=document.getElementById("invisible-t")
+        var btnText=document.getElementById("btnnnn")
+        if(dot.style.display!="none"){
+          dot.style.display="none";
+          invisibletex.style.display="inline";
+          btnnText.innerHTML="Read Less";}
+
+        else{
+            dot.style.display="inline";
+          invisibletex.style.display="none";
+          btnnText.innerHTML="Read More";
+
+          }
+
+       }
+
+
+    </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
